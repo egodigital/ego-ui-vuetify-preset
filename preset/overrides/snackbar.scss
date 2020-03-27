@@ -1,0 +1,16 @@
+.v-snack {
+    .v-snack__wrapper {
+        border-radius: 8px 8px 0 8px;
+        border: thin solid currentColor;
+        border-bottom: 4px;
+        background: white;
+
+        .v-snack__content {
+            padding: 16px 24px;
+        }
+    }
+
+    &.v-alert--outlined {
+        border-bottom: 4px solid currentColor !important;
+    }
+}
