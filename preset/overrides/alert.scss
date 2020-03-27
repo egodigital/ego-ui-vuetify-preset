@@ -1,0 +1,11 @@
+.v-alert {
+    border-radius: 8px 8px 0 8px;
+
+    &.v-alert--outlined {
+        border-bottom: 4px solid currentColor !important;
+    }
+
+    .v-alert__border {
+        opacity: 1;
+    }
+}
