@@ -6,7 +6,7 @@
 
 Add this line to you package.json dependencies
 ```
-"ego-ui-vuetify-preset": "git+https://https://github.com/egodigital/ego-ui-vuetify-preset",
+"ego-ui-vuetify-preset": "git+https://github.com/egodigital/ego-ui-vuetify-preset",
 ```
 
 ### ⚡ Features
