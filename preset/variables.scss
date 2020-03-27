@@ -1,8 +1,8 @@
 /**
- * This file is part of the vscode-powertools distribution.
+ * This file is part of the ego-ui-vuetify-preset distribution.
  * Copyright (c) e.GO Digital GmbH, Aachen, Germany (https://www.e-go-digital.com/)
  *
- * vscode-powertools is free software: you can redistribute it and/or modify
+ * ego-ui-vuetify-preset is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as
  * published by the Free Software Foundation, version 3.
  *
