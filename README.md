@@ -13,4 +13,4 @@ Add this line to you package.json dependencies
 This preset allows our developers a fresh project start without hurdles. Various vuetify components are adjusted for them to make the development time as efficient as possible.
 
 ### License
-[LGPL 3.0](https://www.gnu.de/documents/lgpl-3.0.de.html)
+[LGPL 3.0](http://www.gnu.org/licenses/lgpl-3.0.html)
