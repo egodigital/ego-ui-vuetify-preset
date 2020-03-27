@@ -1,0 +1,10 @@
+.v-card {
+    &:not(.v-sheet--tile):not(.v-card--shaped) {
+        border-radius: $border-radius-root;
+    }
+
+    .v-card__text {
+        font-weight: 300;
+        padding: 24px;
+    }
+}

@@ -1,0 +1,62 @@
+.v-data-table {
+    &.ego-table {
+        background: transparent;
+    
+        thead, 
+        tbody {
+            tr {
+                th,
+                td {
+                    border: none !important;
+                }
+
+                &:hover {
+                    background: transparent !important;
+                }
+            }
+        }
+    
+        thead {
+            .v-progress-linear {
+                position: relative;
+            }
+        }
+    
+        tbody {
+            tr {
+                &:hover {
+                    td {
+                        .td-inner {
+                            background: map-get($shades, 'grey-9');
+                        }
+                    }
+                }
+    
+                td {
+                    padding: 2px 0;
+    
+                    .td-inner {
+                        display: flex;
+                        align-items: center;
+                        height: 46px;
+                        padding: 8px 16px;
+                        background: map-get($shades, 'white');
+    
+                        &.link {
+                            cursor: pointer;
+                        }
+    
+                        .v-image {
+                            max-height: 90%;
+                            max-width: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .v-data-footer {
+            border: none !important;
+        }
+    }
+}

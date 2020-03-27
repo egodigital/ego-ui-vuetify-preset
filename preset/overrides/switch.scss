@@ -1,0 +1,10 @@
+.v-input--switch {
+    .v-input__control {
+        .v-input__slot {
+            .v-input--switch__track {
+                background: map-get($shades, 'grey-9') !important;
+                box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.4);
+            }
+        }
+    }
+}

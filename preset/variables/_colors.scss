@@ -1,0 +1,74 @@
+$blueberry: ('base': #006298,
+    'darkest': #002032,
+    'darker': #00314b,
+    'dark': #004265,
+    'light': #4c91b7,
+    'lighter': #7fb0cb,
+    'lightest': #b2d0e0);
+$ocean: ('base': #009fe3,
+    'darkest': #00577d,
+    'darker': #006996,
+    'dark': #007bb0,
+    'light': #4cbceb,
+    'lighter': #7fcff1,
+    'lightest': #b2e2f7);
+$avocado: ('base': #00857d,
+    'darkest': #001f1d,
+    'darker': #003935,
+    'dark': #00524d,
+    'light': #4ca9a4,
+    'lighter': #7fc2be,
+    'lightest': #a2d3d0);
+$berry: ('base': #99004D,
+    'darkest': #33001A,
+    'darker': #4A0025,
+    'dark': #660033,
+    'light': #B84D82,
+    'lighter': #CC81A6,
+    'lightest': #E0B1C9);
+$peach: ('base': #e87722,
+    'darkest': #a44700,
+    'darker': #be5200,
+    'dark': #d75d00,
+    'light': #EFA064,
+    'lighter': #F3BB90,
+    'lightest': #F8D8BF);
+$cacao: ('base': #993D00,
+    'darkest': #331400,
+    'darker': #4A1E00,
+    'dark': #662900,
+    'light': #B8784D,
+    'lighter': #CC9F81,
+    'lightest': #E0C4B1);
+
+$shades: ('black': #000000,
+    'white': #FFFFFF,
+    'transparent': transparent,
+    'grey': #9e9e9e,
+    'grey-1': lighten(#000, 10%),
+    'grey-2': lighten(#000, 20%),
+    'grey-3': lighten(#000, 30%),
+    'grey-4': lighten(#000, 40%),
+    'grey-5': lighten(#000, 50%),
+    'grey-6': lighten(#000, 60%),
+    'grey-7': lighten(#000, 70%),
+    'grey-8': lighten(#000, 80%),
+    'grey-9': lighten(#000, 90%));
+
+$colors: ('blueberry': $blueberry,
+    'ocean': $ocean,
+    'avocado': $avocado,
+    'berry': $berry,
+    'peach': $peach,
+    'cacao': $cacao,
+    'shades': $shades);
+
+$text-color: ('default': #202124,
+    'alt': #5f6368,
+    'headline': #202124,
+    'placeholder': #878c91);
+
+$background-color: ('default':#fafafa);
+
+$skeleton-color: ('default': #ededed,
+    'alt': #d7d9da);

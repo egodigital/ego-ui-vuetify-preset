@@ -1,0 +1,17 @@
+.v-application {
+    font-size: map-deep-get($headings, 'body-1', 'size') !important;
+    font-weight: map-deep-get($headings, 'body-1', 'weight');
+    letter-spacing: map-deep-get($headings, 'body-1', 'letter-spacing') !important;
+    line-height: map-deep-get($headings, 'body-1', 'line-height');
+    font-family: map-deep-get($headings, 'body-1', 'font-family') !important;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+.theme--light {
+    &.v-application {
+        background: map-get($material-light, 'background');
+    }
+}

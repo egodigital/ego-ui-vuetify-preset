@@ -1,0 +1,38 @@
+@mixin background-color($value) {
+    background-color: $value;
+    border-color: $value;
+}
+@mixin text-color($value) {
+    color: $value;
+    caret-color: $value;
+}
+
+@if ($color-pack) {
+
+    @each $color_name,
+    $color_color in $colors {
+
+        @each $color_type,
+        $color_value in $color_color {
+            @if ($color_type=='base') {
+                .v-application .#{$color_name} {
+                    @include background-color($color_value);
+                }
+
+                .v-application .#{$color_name}--text {
+                    @include text-color($color_value);
+                }
+            }
+
+            @else if ($color_type !='shades') {
+                .v-application .#{$color_name}.#{$color_type} {
+                    @include background-color($color_value);
+                }
+
+                .v-application .#{$color_name}--text.text--#{$color_type} {
+                    @include text-color($color_value);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.v-btn {
+    font-weight: $btn-font-weight;
+    text-transform: $btn-text-transform;
+
+    svg {
+        max-height: 40px;
+        max-width: 40px;
+    }
+
+    &.v-size--small {
+        svg {
+            max-height: 28px;
+            max-width: 28px;
+        }
+    }
+}
