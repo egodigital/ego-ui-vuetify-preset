@@ -1,20 +1,20 @@
 {
   "name": "ego-ui-vuetify-preset",
-  "version": "1.0.3",
-  "description": "Material Studies Reply Theme",
-  "author": "John Leider <john@vuetifyjs.com>",
-  "homepage": "https://github.com/vuetifyjs/vue-cli-plugin-vuetify#readme",
-  "license": "MIT",
+  "version": "1.0.0",
+  "description": "e.GO digital theme preset for vuetify",
+  "author": "Marius Hartmann <marius.hartmann@e-go-digital.com>",
+  "homepage": "https://e-go-digital.com",
+  "license": "LGPL 3.0",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuetifyjs/vue-cli-plugin-vuetify.git"
+    "url": "git+https://github.com/egodigital/ego-ui-vuetify-preset.git"
   },
   "scripts": {
     "lint": "eslint --ext .js,.vue ."
   },
   "bugs": {
-    "url": "https://github.com/vuetifyjs/vue-cli-plugin-vuetify/issues"
+    "url": "https://github.com/egodigital/ego-ui-vuetify-preset/issues"
   },
   "dependencies": {
     "@vuetify/cli-plugin-utils": "^0.0.6"
