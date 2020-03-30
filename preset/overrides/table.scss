@@ -25,6 +25,16 @@
                 th,
                 td {
                     border: none !important;
+
+                    &.link:before {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: map-get($blueberry, 'light');
+                        opacity: 0;
+                    }
                 }
 
                 &:hover {
@@ -44,14 +54,7 @@
                 &:hover {
                     td {
                         .td-inner {
-
-                            &:before {
-                                position: absolute;
-                                top: 0;
-                                left: 0;
-                                right: 0;
-                                bottom: 0;
-                                background: map-get($blueberry, 'light');
+                            &.link:before {
                                 opacity: 0.12;
                             }
                         }
