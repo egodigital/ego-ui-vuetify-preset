@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/egodigital/ego-ui-vuetify-preset.git"
   },
-  "scripts": {
-    "lint": "eslint --ext .js,.vue ."
-  },
   "bugs": {
     "url": "https://github.com/egodigital/ego-ui-vuetify-preset/issues"
   },

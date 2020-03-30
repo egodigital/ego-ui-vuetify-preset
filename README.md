@@ -25,7 +25,7 @@ In your public `index.html`, import the default font, we use:
 Inside your `main.js/.ts` (or your Vuetify plugin file), import the preset and reference it in your Vuetify options:
 
 ```
-import { preset } from 'ego-ui-vuetify-preset/preset';
+import { preset } from '@egodigital/vuetify-preset/preset';
 
 Vue.use(Vuetify);
 
