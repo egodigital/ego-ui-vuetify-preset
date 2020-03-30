@@ -44,7 +44,7 @@
                 &:hover {
                     td {
                         .td-inner {
-                            background: rgba(map-get($blueberry, 'light'), 0.12);
+                            background: rgba(var(--primary-rgb), 0.12);
                         }
                     }
                 }
