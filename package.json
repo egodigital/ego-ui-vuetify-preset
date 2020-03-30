@@ -1,5 +1,5 @@
 {
-  "name": "ego-ui-vuetify-preset",
+  "name": "@egodigital/vuetify-preset",
   "version": "1.0.0",
   "description": "e.GO digital theme preset for vuetify",
   "author": "Marius Hartmann <marius.hartmann@e-go-digital.com>",
