@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/@egodigital/vuetify-preset.svg)](https://www.npmjs.com/package/@egodigital/vuetify-preset)
+
 # `@egodigital/vuetify-preset`
 
 > A [Vuetify](https://vuetifyjs.com/) preset for the [e.GO Digital](https://e-go-digital.com/)
