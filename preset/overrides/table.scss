@@ -15,6 +15,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+ $td-padding-horizontal: 12px;
+
  .v-data-table {
     &.ego-table {
         background: transparent;
@@ -34,6 +36,18 @@
         }
     
         thead {
+            th {
+                padding: 0 $td-padding-horizontal;
+
+                &:first-child {
+                    padding-left: 24px;
+                }
+
+                &:last-child {
+                    padding-right: 24px;
+                }
+            }
+
             .v-progress-linear {
                 position: relative;
             }
@@ -68,7 +82,7 @@
                         display: flex;
                         align-items: center;
                         height: 46px;
-                        padding: 8px 12px;
+                        padding: 8px $td-padding-horizontal;
                         background: map-get($shades, 'white');
     
                         &.link {
