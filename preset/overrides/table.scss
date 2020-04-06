@@ -37,6 +37,7 @@
     
         thead {
             th {
+                height: 38px;
                 padding: 0 $td-padding-horizontal;
 
                 &:first-child {
@@ -67,14 +68,36 @@
                     padding: 2px 0;
 
                     &:first-child {
+                        .td-search {
+                            padding-left: 12px;
+                        }
                         .td-inner {
                             padding-left: 24px;
                         }
                     }
 
                     &:last-child {
+                        .td-search {
+                            padding-right: 12px;
+                        }
                         .td-inner {
                             padding-right: 24px;
+                        }
+                    }
+
+                    .td-search {
+                        display: flex;
+                        align-items: center;
+                        height: 40px;
+                        padding: 0px;
+                        background: #FFFFFF;
+                        border-bottom: 1px solid #f0f0f0;
+
+                        .v-input {
+                            border-radius: 0;
+                            font-size: 14px;
+                            min-height: 30px;
+                            color: map-get($shades, 'grey-4');
                         }
                     }
     
