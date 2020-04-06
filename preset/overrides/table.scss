@@ -89,15 +89,19 @@
                         display: flex;
                         align-items: center;
                         height: 40px;
-                        padding: 0px;
-                        background: #FFFFFF;
-                        border-bottom: 1px solid #f0f0f0;
+                        padding: 4px;
 
                         .v-input {
-                            border-radius: 0;
                             font-size: 14px;
                             min-height: 30px;
-                            color: map-get($shades, 'grey-4');
+
+                            .v-input__slot {
+                                padding: 0 12px;
+    
+                                input {
+                                    color: map-get($shades, 'grey-4');
+                                }
+                            }
                         }
                     }
     
