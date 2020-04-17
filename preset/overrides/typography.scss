@@ -167,6 +167,6 @@
 
 .theme--light {
     &.v-application {
-        color: map-get($text-color, 'default') !important;
+        color: var(--text-default-hex) !important;
     }
 }
